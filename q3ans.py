@@ -1,0 +1,5 @@
+P =int(input("Enter the Principal(P): "))
+R =float(input("Enter the Rate of interest(R): "))
+n =float(input("Enter the number of years (n): "))
+SI =float((P*R*n)/100)
+print("The Simple Interest is:", SI)

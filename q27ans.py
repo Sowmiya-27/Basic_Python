@@ -1,0 +1,6 @@
+numbers = list(map(int, input("Enter numbers separated by spaces: ").split()))
+square = list(map(lambda x: x**2, numbers))
+cube = list(map(lambda x: x**3, numbers))
+print(f"Original List: {numbers}")
+print(f"Squared List: {square}")
+print(f"Cubed List: {cube}")
